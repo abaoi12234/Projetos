@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    background-color: rgb(149, 239, 205);
+    animation: reverse 100%;
+}
+H1{
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #008080;
+}
+header{
+    background-color: #174950;
+    display:flex;/* Deixa tudo na mesma linha */
+    justify-content: space-between;/* Organiza os botão com espaçamento ou pro meio e final e só funciona com display:fley */
+    padding: 10px 20px; 
+    border-image: auto;
+}
+#box-categorias button{
+
+    background-color: #008080 
+}
+#box-ordenar button{
+    background-color: #008080
+}
+
+#box-categorias button, 
+#box-ordenar button {
+   border-radius: 6px;
+   border: o;
+   color: rgb(255, 255, 255);
+   padding: 10px 20px 10px 20px;/* espaço do texto na caixa */
+}
+#galeria-imagens{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+}
+#galeria-imagens img{
+    max-width: 100%;
+}
