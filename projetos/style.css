@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-color: rgb(149, 239, 205);
+    background-color: rgb(125, 172, 154);
     animation: reverse 100%;
 }
 H1{
@@ -31,10 +31,13 @@ header{
    padding: 10px 20px 10px 20px;/* espaço do texto na caixa */
 }
 #galeria-imagens{
-    display: flex;
-    flex-wrap: wrap;   
-    justify-content: space-around;
+    display: flex;   
+    justify-content: center;
 }
 #galeria-imagens img{
-    max-width: 100%;
+    padding: 10px ;
+    width: 90%;
+    margin: auto;
+    display: block;
+    border-radius: 7%;
 }
